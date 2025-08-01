@@ -8,7 +8,7 @@ using System.Windows.Forms;
 namespace CarterasInventarioo.LogicaNegocio
 {
     
-    internal class Carteras
+    public class Carteras
     {
         public int Id { get; set; }
         public string Marca { get; set; }

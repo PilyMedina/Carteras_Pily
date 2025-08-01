@@ -1,89 +1,135 @@
-﻿using MySql.Data.MySqlClient;
+﻿//
+// Clase InventarioServicio.cs: Lógica de negocio para las operaciones CRUD
+//
+// Este archivo contiene la clase que se encarga de las operaciones
+// de crear, listar, obtener, actualizar y eliminar carteras en la base de datos.
+//
+
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 namespace CarterasInventarioo.LogicaNegocio
 {
-    internal class InventarioServicio
+    public class InventarioServicio
     {
+        // Cadena de conexión a la base de datos
+        // Importante: Reemplaza los valores con los de tu configuración local de MySQL
+        private readonly string connectionString = "Server=localhost;Database=CarterasDB;Uid=root;Pwd=tu_contraseña_aqui;";
 
-            private string connectionString = "server=localhost;database=CarteraInventoryDB;uid=root;pwd=;";
-
-            public List<Carteras> GetAll()
+        //
+        // Método para crear una nueva cartera
+        //
+        public void Crear(Carteras cartera)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                List<Carteras> carteras = new List<Carteras>();
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                string query = "INSERT INTO Carteras (Marca, Modelo, Precio, Stock) VALUES (@Marca, @Modelo, @Precio, @Stock)";
+                MySqlCommand command = new MySqlCommand(query, connection);
+
+                command.Parameters.AddWithValue("@Marca", cartera.Marca);
+                command.Parameters.AddWithValue("@Modelo", cartera.Modelo);
+                command.Parameters.AddWithValue("@Precio", cartera.Precio);
+                command.Parameters.AddWithValue("@Stock", cartera.Stock);
+
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
+
+        //
+        // Método para obtener todas las carteras
+        //
+        public List<Carteras> ObtenerTodos()
+        {
+            List<Carteras> carteras = new List<Carteras>();
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                string query = "SELECT Id, Marca, Modelo, Precio, Stock FROM Carteras";
+                MySqlCommand command = new MySqlCommand(query, connection);
+
+                connection.Open();
+                MySqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
                 {
-                    string sql = "SELECT * FROM Carteras";
-                    MySqlCommand cmd = new MySqlCommand(sql, conn);
-                    conn.Open();
-                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    carteras.Add(new Carteras
                     {
-                        while (reader.Read())
-                        {
-                            carteras.Add(new Carteras
-                            {
-                                Id = reader.GetInt32("Id"),
-                                Marca = reader.GetString("Marca"),
-                                Modelo = reader.GetString("Modelo"),
-                                Precio = reader.GetDecimal("Precio"),
-                                Stock = reader.GetInt32("Stock")
-                            });
-                        }
-                    }
+                        Id = reader.GetInt32("Id"),
+                        Marca = reader.GetString("Marca"),
+                        Modelo = reader.GetString("Modelo"),
+                        Precio = reader.GetDecimal("Precio"),
+                        Stock = reader.GetInt32("Stock")
+                    });
                 }
                 return carteras;
             }
+        }
 
-            public void Add(Carteras cartera)
+        //
+        // Método para obtener una cartera por su Id
+        //
+        public Carteras ObtenerPorId(int id)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                string query = "SELECT Id, Marca, Modelo, Precio, Stock FROM Carteras WHERE Id = @Id";
+                MySqlCommand command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Id", id);
+
+                connection.Open();
+                MySqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
                 {
-                    string sql = "INSERT INTO Carteras (Marca, Modelo, Precio, Stock) VALUES (@Marca, @Modelo, @Precio, @Stock)";
-                    MySqlCommand cmd = new MySqlCommand(sql, conn);
-                    cmd.Parameters.AddWithValue("@Marca", cartera.Marca);
-                    cmd.Parameters.AddWithValue("@Modelo", cartera.Modelo);
-                    cmd.Parameters.AddWithValue("@Precio", cartera.Precio);
-                    cmd.Parameters.AddWithValue("@Stock", cartera.Stock);
-                    conn.Open();
-                    cmd.ExecuteNonQuery();
+                    return new Carteras
+                    {
+                        Id = reader.GetInt32("Id"),
+                        Marca = reader.GetString("Marca"),
+                        Modelo = reader.GetString("Modelo"),
+                        Precio = reader.GetDecimal("Precio"),
+                        Stock = reader.GetInt32("Stock")
+                    };
                 }
+                return null; // Devuelve null si no se encuentra la cartera
             }
+        }
 
-            // ... (Métodos Update y Delete, que son similares) ...
-
-            public void Update(Carteras cartera)
+        //
+        // Método para actualizar una cartera existente
+        //
+        public void Actualizar(Carteras cartera)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
-                {
-                    string sql = "UPDATE Carteras SET Marca = @Marca, Modelo = @Modelo, Precio = @Precio, Stock = @Stock WHERE Id = @Id";
-                    MySqlCommand cmd = new MySqlCommand(sql, conn);
-                    cmd.Parameters.AddWithValue("@Marca", cartera.Marca);
-                    cmd.Parameters.AddWithValue("@Modelo", cartera.Modelo);
-                    cmd.Parameters.AddWithValue("@Precio", cartera.Precio);
-                    cmd.Parameters.AddWithValue("@Stock", cartera.Stock);
-                    cmd.Parameters.AddWithValue("@Id", cartera.Id);
-                    conn.Open();
-                    cmd.ExecuteNonQuery();
-                }
-            }
+                string query = "UPDATE Carteras SET Marca = @Marca, Modelo = @Modelo, Precio = @Precio, Stock = @Stock WHERE Id = @Id";
+                MySqlCommand command = new MySqlCommand(query, connection);
 
-            public void Delete(int id)
-            {
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
-                {
-                    string sql = "DELETE FROM Carteras WHERE Id = @Id";
-                    MySqlCommand cmd = new MySqlCommand(sql, conn);
-                    cmd.Parameters.AddWithValue("@Id", id);
-                    conn.Open();
-                    cmd.ExecuteNonQuery();
-                }
+                command.Parameters.AddWithValue("@Marca", cartera.Marca);
+                command.Parameters.AddWithValue("@Modelo", cartera.Modelo);
+                command.Parameters.AddWithValue("@Precio", cartera.Precio);
+                command.Parameters.AddWithValue("@Stock", cartera.Stock);
+                command.Parameters.AddWithValue("@Id", cartera.Id);
+
+                connection.Open();
+                command.ExecuteNonQuery();
             }
+        }
+
+        //
+        // Método para eliminar una cartera por su Id
+        //
+        public void Eliminar(int id)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                string query = "DELETE FROM Carteras WHERE Id = @Id";
+                MySqlCommand command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Id", id);
+
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
     }
 }
-
-
