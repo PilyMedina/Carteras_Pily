@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\logicanegocio\\inventarioservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|c:\\users\\pilar medina\\source\\repos\\carterasinventarioo\\carterasinventarioo\\logicanegocio\\carteras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\carterasinventarioo\\logicanegocio\\carteras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\logicanegocio\\carteras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "CarterasInventarioo\\LogicaNegocio\\InventarioServicio.cs",
               "ToolTip": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\LogicaNegocio\\InventarioServicio.cs",
               "RelativeToolTip": "CarterasInventarioo\\LogicaNegocio\\InventarioServicio.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAqwEEAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T10:24:10.511Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "CarterasInventarioo\\LogicaNegocio\\Carteras.cs",
               "ViewState": "AgIAAAMAAADAMjMzMzMbwAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:53:13.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T09:53:13.127Z"
             },
             {
               "$type": "Document",
