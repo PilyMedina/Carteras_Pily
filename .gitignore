@@ -1,17 +1,39 @@
-# Visual Studio temporary files
+# Visual Studio
 .vs/
-
-# Binaries and object files
-[Dd]ebug/
-[Rr]elease/
-*.exe
-*.dll
-*.pdb
-
-# Packages
-packages/
-
-# Others
+.vspscc
+.vssscc
 *.suo
 *.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# Visual Studio files
 *.log
+*.vsix
+*.vshost.*
+*.pdb
+*.tmp
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Other
+~$*
