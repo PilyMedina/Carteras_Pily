@@ -1,0 +1,17 @@
+# Visual Studio temporary files
+.vs/
+
+# Binaries and object files
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.pdb
+
+# Packages
+packages/
+
+# Others
+*.suo
+*.user
+*.log
