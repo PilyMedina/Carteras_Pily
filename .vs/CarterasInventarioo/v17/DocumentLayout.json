@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|c:\\users\\pilar medina\\source\\repos\\carterasinventarioo\\carterasinventarioo\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|c:\\users\\pilar medina\\source\\repos\\carterasinventarioo\\carterasinventarioo\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|c:\\users\\pilar medina\\source\\repos\\carterasinventarioo\\carterasinventarioo\\presentacion\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\presentacion\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|c:\\users\\pilar medina\\source\\repos\\carterasinventarioo\\carterasinventarioo\\logicanegocio\\inventarioservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\logicanegocio\\inventarioservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\carterasinventarioo\\logicanegocio\\carteras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\logicanegocio\\carteras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|c:\\users\\pilar medina\\source\\repos\\carterasinventarioo\\carterasinventarioo\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\carterasinventarioo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\carterasinventarioo\\logicanegocio\\carteras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5EB1395-D271-41BB-BA0B-AF48DCCE6032}|CarterasInventarioo\\CarterasInventarioo.csproj|solutionrelative:carterasinventarioo\\logicanegocio\\carteras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Presentacion\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "CarterasInventarioo\\Presentacion\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Presentacion\\Form1.Designer.cs",
+              "RelativeToolTip": "CarterasInventarioo\\Presentacion\\Form1.Designer.cs",
+              "ViewState": "AgIAAN8AAAAAKjMzMzPzvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T00:25:15.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "InventarioServicio.cs",
               "DocumentMoniker": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\LogicaNegocio\\InventarioServicio.cs",
               "RelativeDocumentMoniker": "CarterasInventarioo\\LogicaNegocio\\InventarioServicio.cs",
               "ToolTip": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\LogicaNegocio\\InventarioServicio.cs",
               "RelativeToolTip": "CarterasInventarioo\\LogicaNegocio\\InventarioServicio.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T10:24:10.511Z",
+              "WhenOpened": "2025-08-02T00:13:56.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "CarterasInventarioo\\Presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Presentacion\\Program.cs",
+              "RelativeToolTip": "CarterasInventarioo\\Presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T23:52:38.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "CarterasInventarioo\\Presentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Presentacion\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CarterasInventarioo\\Presentacion\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T23:35:20.705Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "CarterasInventarioo\\Presentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Presentacion\\Form1.cs",
+              "RelativeToolTip": "CarterasInventarioo\\Presentacion\\Form1.cs",
+              "ViewState": "AgIAABsAAAAA6MzMzMz8vyUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T23:11:24.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Carteras.cs",
               "DocumentMoniker": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\LogicaNegocio\\Carteras.cs",
               "RelativeDocumentMoniker": "CarterasInventarioo\\LogicaNegocio\\Carteras.cs",
               "ToolTip": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\LogicaNegocio\\Carteras.cs",
               "RelativeToolTip": "CarterasInventarioo\\LogicaNegocio\\Carteras.cs",
-              "ViewState": "AgIAAAMAAADAMjMzMzMbwAkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:53:13.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Form1.cs",
-              "RelativeDocumentMoniker": "CarterasInventarioo\\Form1.cs",
-              "ToolTip": "C:\\Users\\Pilar Medina\\source\\repos\\CarterasInventarioo\\CarterasInventarioo\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CarterasInventarioo\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:10:09.193Z"
+              "WhenOpened": "2025-08-01T09:53:13.127Z",
+              "EditorCaption": ""
             }
           ]
         }
